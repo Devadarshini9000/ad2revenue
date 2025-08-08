@@ -1,6 +1,6 @@
 # 📈 ad2revenue – Advertising Budget-Based Sales Predictor
 
-**ad2revenue** is a machine learning-powered web application that predicts **product sales** based on your advertising budget and preferred ad platforms like **TV**, **Radio**, and **Newspaper**. It helps businesses strategically allocate their marketing spend to get the best ROI.
+**Ad2Revenue** is a machine learning-powered web application that predicts **product sales** based on your advertising budget and preferred ad platforms like **TV**, **Radio**, and **Newspaper**. It helps businesses strategically allocate their marketing spend to get the best ROI.
 
 ---
 
@@ -58,17 +58,16 @@
 git clone https://github.com/yourusername/ad2revenue.git
 cd ad2revenue
 
-### **2.Install Requirements**
+2.Install Requirements
 pip install streamlit pandas scikit-learn joblib numpy
 
-### **3. Train the Model** (Optional if sales_model.pkl already exists)
-bash
+3. Train the Model(Optional if sales_model.pkl already exists)
 python sales_train.py
 
-### **4. Launch the Dashboard**
+4. Launch the Dashboard
 streamlit run sales_test.py
 
-🧠 **Use Cases**
+🧠 Use Cases
 📊 Marketing campaign planning
 🧾 Budget forecasting
 💰 ROI estimation for ad spend
