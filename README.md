@@ -14,11 +14,11 @@
 ---
 
 ## 📁 Project Structure
-├── preprocessed_advertising.csv # Cleaned dataset
-├── sales_train.py # Script to train the ML model
-├── sales_test.py # Streamlit app for prediction
-├── sales_model.pkl # Trained model file
-├── scaler.pkl # Scaler used for input normalization
+- ├── preprocessed_advertising.csv # Cleaned dataset
+- ├── sales_train.py # Script to train the ML model
+- ├── sales_test.py # Streamlit app for prediction
+- ├── sales_model.pkl # Trained model file
+- ├── scaler.pkl # Scaler used for input normalization
 
 
 ---
@@ -66,16 +66,18 @@ python sales_train.py
 ### 4. Launch the Dashboard
 streamlit run sales_test.py
 
-### 🧠 Use Cases
-📊 Marketing campaign planning
-🧾 Budget forecasting
-💰 ROI estimation for ad spend
-📍 Strategy optimization across platforms
+## 🧠 Use Cases
+- 📊 Marketing campaign planning  
+- 🧾 Budget forecasting  
+- 💰 ROI estimation for ad spend  
+- 📍 Strategy optimization across platforms
 
-👩‍💻 Author
-Devadarshini P
-🔗 LinkedIn
-💻 GitHub
+
+## 👩‍💻 Author
+**Devadarshini P**  
+[🔗 LinkedIn](https://www.linkedin.com/in/devadarshini-p-707b15202/)  
+[💻 GitHub](https://github.com/Devadarshini9000)
+
 
 “Predict smart. Spend smart. Grow fast.” – ad2revenue
 <img width="1906" height="893" alt="image" src="https://github.com/user-attachments/assets/1fa8c375-7f83-4446-b2c3-667c6669e7b6" />
