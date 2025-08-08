@@ -66,7 +66,7 @@ python sales_train.py
 ### 4. Launch the Dashboard
 streamlit run sales_test.py
 
-🧠 Use Cases
+### 🧠 Use Cases
 📊 Marketing campaign planning
 🧾 Budget forecasting
 💰 ROI estimation for ad spend
