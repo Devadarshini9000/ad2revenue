@@ -56,7 +56,7 @@
 
 ```bash
 git clone https://github.com/yourusername/ad2revenue.git
-cd ad2revenue
+cd ad2revenue ###
 
 2.Install Requirements
 pip install streamlit pandas scikit-learn joblib numpy
