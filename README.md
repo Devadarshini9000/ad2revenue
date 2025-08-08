@@ -54,17 +54,16 @@
 
 ### 🔹 1. Clone the Repo
 
-```bash
 git clone https://github.com/yourusername/ad2revenue.git
-cd ad2revenue ###
+cd ad2revenue 
 
-2.Install Requirements
+#### 2.Install Requirements
 pip install streamlit pandas scikit-learn joblib numpy
 
-3. Train the Model(Optional if sales_model.pkl already exists)
+##### 3. Train the Model(Optional if sales_model.pkl already exists)
 python sales_train.py
 
-4. Launch the Dashboard
+###### 4. Launch the Dashboard
 streamlit run sales_test.py
 
 🧠 Use Cases
