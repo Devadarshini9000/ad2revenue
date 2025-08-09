@@ -14,12 +14,12 @@
 ---
 
 ## 📁 Project Structure
+
 - ├── preprocessed_advertising.csv # Cleaned dataset
 - ├── sales_train.py # Script to train the ML model
 - ├── sales_test.py # Streamlit app for prediction
 - ├── sales_model.pkl # Trained model file
 - ├── scaler.pkl # Scaler used for input normalization
-
 
 ---
 
@@ -36,13 +36,13 @@
 
 ## 🧪 How It Works
 
-1. **Training (`sales_train.py`)**
+1. Training (`sales_train.py`)
    - Reads the advertising dataset
    - Splits into features: TV, Radio, Newspaper
    - Trains a **Linear Regression** model
    - Saves the model as `sales_model.pkl`
 
-2. **Prediction (`sales_test.py`)**
+2. Prediction (`sales_test.py`)
    - Loads trained model and scaler
    - Accepts total ad budget and platform strategy (e.g., TV + Radio)
    - Distributes budget accordingly, scales input, and predicts sales
@@ -67,6 +67,7 @@ python sales_train.py
 streamlit run sales_test.py
 
 ## 🧠 Use Cases
+
 - 📊 Marketing campaign planning  
 - 🧾 Budget forecasting  
 - 💰 ROI estimation for ad spend  
@@ -78,8 +79,8 @@ streamlit run sales_test.py
 [🔗 LinkedIn](https://www.linkedin.com/in/devadarshini-p-707b15202/)  
 [💻 GitHub](https://github.com/Devadarshini9000)
 
-
 “Predict smart. Spend smart. Grow fast.” – ad2revenue
+
 <img width="1906" height="893" alt="image" src="https://github.com/user-attachments/assets/1fa8c375-7f83-4446-b2c3-667c6669e7b6" />
 
 
